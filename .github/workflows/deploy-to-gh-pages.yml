@@ -30,12 +30,12 @@ jobs:
 
       - name: Install dependencies and build
         run: |
-          cd site-vite-project/
+          cd site-vite-project
           npm install
           npm run build
 
       # Deploy
-      - name: Deploy to gh-pages branch
+      - name: Deploy to gh-pages branch 🚀
         run: |
           git checkout --orphan gh-pages
           git rm -rf .
