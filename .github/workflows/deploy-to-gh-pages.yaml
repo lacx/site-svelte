@@ -15,7 +15,7 @@ jobs:
         run: |
           cd site-vite-project
           npm install
-          npm build
+          npm run build
           cd ..
 
       - uses: actions/upload-pages-artifact@v2
