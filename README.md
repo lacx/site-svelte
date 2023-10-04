@@ -19,3 +19,9 @@ cd site-vite-project
 npm install
 npm run dev
 ```
+
+### Create GitHub Action to deploy the site to GitHub Pages
+
+- In the GitHub repo go to _Settings/Pages_ at _Source_ select __GitHub Actions__ and click _create your own_
+
+- see the file _.github\workflows\deploy-to-gh-pages_
