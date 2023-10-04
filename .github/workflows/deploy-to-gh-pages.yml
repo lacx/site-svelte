@@ -41,6 +41,10 @@ jobs:
           git rm -rf .
           pwd
           ls
+          cd site-vite-project
+          ls
+          cd dist
+          ls
           cp -r site-vite-project/dist/* .
           touch .nojekyll
           git add .
